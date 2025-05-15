@@ -38,29 +38,21 @@ flask/
 └── requirements.txt      # Python dependencies
 ```
 
-## Installation
 
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/your-username/flask-todo-app.git
-cd flask-todo-app/flask
-```
-
-2. **Create a virtual environment and activate it:**
+1. **Create a virtual environment and activate it:**
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. **Install dependencies:**
+2. **Install dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Run the app:**
+3. **Run the app:**
 
 ```bash
 flask run
@@ -74,17 +66,7 @@ flask db migrate -m "Initial migration."
 flask db upgrade
 ```
 
-## Sample Credentials (Optional)
-
-- Username: `testuser`
-- Password: `test123`
-
 ## To-Do / Improvements
-
-- [ ] Add unit tests
-- [ ] Deploy to Render/Heroku
-- [ ] Add pagination and search
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
+- Add unit tests
+- Deploy to Render/Heroku
+- Add pagination and search
