@@ -1,0 +1,18 @@
+# Ignore only DB files in instance/
+instance/*.db
+instance/*.sqlite
+instance/*.sqlite3
+
+# Keep the instance folder itself
+!instance/__init__.py
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment file
+.env
+
+# IDE/editor settings
+.vscode/
+.idea/
